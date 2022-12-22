@@ -1,0 +1,209 @@
+@media screen and (max-width: 1440px) and (min-width: 769px){
+    
+h1{
+    font-size: 36px;
+}
+
+h2{
+    font-weight: normal;
+    font-size: 24px;
+}
+
+h3{
+    font-size: 20px;
+}
+
+h4{
+    font-size: 14px;
+}
+
+.container {
+    max-width: 768px;
+}
+
+.earth_img{
+    width: 420px;
+    height: 420px;
+}   
+
+.maintext{
+    margin-left: 71px;
+}
+
+.main_p{
+    font-size: 18px;
+    line-height: 22px;
+    max-width: 251px;
+}
+
+.button{
+    margin-top: 25px;
+    max-width: 156px;
+    max-height: 44px;
+}
+
+.btn{
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 18px;
+    padding-top: 8px;
+    padding-bottom: 11px;
+    padding-right: 19px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    text-decoration: none;
+    
+    border: 2px solid #fff;
+    border-radius: 32px;
+}
+
+.watchtext{
+    font-size: 20px;
+}
+
+.arrowdn{
+    width: 14px;
+    height: 19px;
+    background: url(/images/arrow.svg) center top no-repeat;
+    background-size: 100% 
+}
+
+.recyclinglevels{
+    height: 671px;
+}
+
+.levels_title{
+    margin-top: 0px;
+}
+
+.levelsof{
+    margin-top: 45px;
+}
+
+.levelsof > div {
+    margin: 1px;
+    padding: 25px;
+    height: 118px;
+  }
+
+.utiltext,
+.sorttext,
+.recyclablestext{
+    margin-left: 25px;
+}
+
+.removaltext,
+.fabrictext{
+    margin-right: 25px;
+}
+
+.util_p,
+.removal_p,
+.sort_p,
+.fabric_p,
+.recyclables_p{
+    font-size: 14px;
+    line-height: 17px;
+    width: 209px;
+}
+
+.trash_img{
+    width: 47px;
+    height: 69px;
+}
+
+.truck_img{
+    width: 69px;
+    height: 71px;
+}
+
+.sort_img{
+    width: 69px;
+    height: 71px;
+}
+
+.fabric_img{
+    width: 71px;
+    height: 71px;
+}
+
+.recyclables_img{
+    width: 36px;
+    height: 71px;
+}
+
+.greenpeace{
+    margin-top: 72px;
+    height: 688px;
+}
+
+.greenpeace_bg{
+    margin-top: 18px;
+    height: auto;
+}
+
+.greenpeace_p{
+    font-size: 20px;
+    line-height: 24px;
+    width: 707px;
+}
+
+.map{
+    height: 460px;
+}
+
+.feedback > div > div > h4{
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.post_title{
+    font-size: 32px;
+    line-height: 41px;
+}
+
+.post_p{
+    font-size: 19px;
+    line-height: 23px;
+    width: 313px;
+}
+
+.telegram{
+    width: 316px;
+    height: 349px;
+    background: url(/images/tgpathtablet.svg) center center no-repeat;
+    background-size: 100%;
+    padding: 44px;
+}
+
+.tg_title{
+    font-size: 26px;
+    line-height: 31px;
+}
+
+.tg_img{
+    width: 22px;
+    height: 20px;
+}
+
+.ilya,
+.fedor{
+    margin-top: 44px;
+}
+
+.iname,
+.fname{
+    font-size: 22px;
+    line-height: 27px;
+}
+
+.mrrofl,
+.ruffidesign,
+.aerscs,
+.aersdsgn{
+    font-size: 20px;
+    line-height: 24px;
+}
+
+}

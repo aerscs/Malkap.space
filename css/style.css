@@ -1,0 +1,442 @@
+@font-face {
+    font-family: "basisgrotesquepro";
+    src: url(./fonts/basisgrotesquepro-black.eot);
+    src: url(./fonts/basisgrotesquepro-black.eot?#iefix) format("embedded-opentype");
+    src: url(./fonts/basisgrotesquepro-black.woff2) format("woff2");
+    src: url(./fonts/basisgrotesquepro-black.woff) format("woff");
+    src: url(./fonts/basisgrotesquepro-black.ttf) format("truetype");
+    font-weight: bolder;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "basisgrotesquepro";
+    src: url(./fonts/basisgrotesquepro-bold.eot);
+    src: url(./fonts/basisgrotesquepro-bold.eot?#iefix) format("embedded-opentype");
+    src: url(./fonts/basisgrotesquepro-bold.woff2) format("woff2");
+    src: url(./fonts/basisgrotesquepro-bold.woff) format("woff");
+    src: url(./fonts/basisgrotesquepro-bold.ttf) format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "basisgrotesquepro";
+    src: url(./fonts/basisgrotesquepro-medium.eot);
+    src: url(./fonts/basisgrotesquepro-medium.eot?#iefix) format("embedded-opentype");
+    src: url(./fonts/basisgrotesquepro-medium.woff2) format("woff2");
+    src: url(./fonts/basisgrotesquepro-medium.woff) format("woff");
+    src: url(./fonts/basisgrotesquepro-medium.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: "inter";
+    src: url(./fonts/inter-medium.eot);
+    src: url(./fonts/inter-medium.eot?#iefix) format("embedded-opentype");
+    src: url(./fonts/inter-medium.woff2) format("woff2");
+    src: url(./fonts/inter-medium.woff) format("woff");
+    src: url(./fonts/inter-medium.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale !important;
+    background: #000000;
+    margin:0;
+    padding:0;
+}
+
+*,
+*:before,
+*:after {
+        box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+    color: #fff;
+}
+
+h1{
+    font-family: "basisgrotesquepro";
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+h2{
+    text-align: left;
+    font-family: "basisgrotesquepro";
+    font-weight: bold;
+    font-size: 36px;
+}
+
+h3{
+    font-family: "inter";
+    font-weight: normal;
+    font-size: 24px;
+}
+
+h4{
+    font-family: "inter";
+    font-weight: normal;
+    font-size: 24px;
+    color: #ffffff50;
+}
+
+p{
+    font-family: "inter";
+    font-weight: normal;
+}
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.header{
+    margin-top: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.spt_img{
+    width: 129px;
+    height: 72px;
+    background: url(/images/spt.svg) center top no-repeat;
+    background-size: 100% 100%; 
+}
+
+.titlepage{
+    margin-top: 75px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.earth_img{
+    width: 539px;
+    height: 539px;
+    background: url(/images/earth.webp) center top no-repeat;
+    background-size: 100%;
+}   
+
+.maintext{
+    margin-left: 91px;
+}
+
+.main_p{
+    font-size: 23px;
+    line-height: 28px;
+    max-width: 350px;
+}
+
+.button{
+    margin-top: 25px;
+    max-width: 215px;
+    max-height: 60px;
+}
+
+.btn{
+    padding-left: 22px;
+    padding-top: 10px;
+    padding-bottom: 14px;
+    padding-right: 22px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    text-decoration: none;
+    
+    border: 2px solid #fff;
+    border-radius: 32px;
+}
+
+.watchtext{
+    font-family: "inter";
+    font-weight: normal;
+    font-size: 28px;
+    color: #fff;
+    text-transform: lowercase;
+    line-height: 24px;
+}
+
+.arrowdn{
+    width: 22px;
+    height: 29px;
+    background: url(/images/arrow.svg) center top no-repeat;
+    background-size: 100% 100%; 
+}
+
+.recyclinglevels{
+    height: 858px;
+    background: url(/images/recyclebg.svg) center center no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 68px;
+}
+
+.levels_title{
+    font-weight: bold;
+    margin-top: -18px;
+    position: absolute;
+    text-align: center;
+}
+
+.levelsof{
+    display: flex;
+    flex-direction: column;
+    margin-top: 52px;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.levelsof > div {
+    margin: 1px;
+    padding: 38px;
+    height: 154px;
+  }
+
+  .levelsof > div > div > p {
+    margin-top: 0.5em;
+  }
+
+.util,
+.sort,
+.recyclables{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.removal,
+.fabric{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.utiltext,
+.sorttext,
+.recyclablestext{
+    margin-left: 38px;
+    text-align: left;
+}
+
+.removaltext,
+.fabrictext{
+    margin-right: 38px;
+    text-align: right;
+}
+
+.util_p,
+.removal_p,
+.sort_p,
+.fabric_p,
+.recyclables_p{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgb(255, 255, 255, 0.5);
+    width: 234px;
+}
+
+.trash_img{
+    background: url(/images/trash.svg) center center no-repeat;
+    background-size: 100%;
+    width: 54px;
+    height: 78px;
+}
+
+.truck_img{
+    background: url(/images/truck.svg) center center no-repeat;
+    background-size: 100%;
+    width: 76px;
+    height: 78px;
+}
+
+.sort_img{
+    background: url(/images/sort.svg) center center no-repeat;
+    background-size: 100%;
+    width: 75px;
+    height: 78px;
+}
+
+.fabric_img{
+    background: url(/images/fabric.svg) center center no-repeat;
+    background-size: 100%;
+    width: 78px;
+    height: 78px;
+}
+
+.recyclables_img{
+    background: url(/images/recyclables.svg) center center no-repeat;
+    background-size: 100%;
+    width: 39px;
+    height: 78px;
+}
+
+.greenpeace{
+    width: 100%;
+    text-align: center;
+    margin-top: 86px;
+    height: 872px;
+    display: flex;
+    flex-direction: column;
+}
+
+.easierthan_title{
+    font-weight: bold;
+    text-align: center;
+}
+
+.greenpeace_bg{
+    margin-top: 21px;
+    height: 199px;
+    width: 100%;
+    background: url(/images/easierpath.svg) center top no-repeat;
+    background-size: 100%;
+    padding: 30px;
+}
+
+.greenpeace_p{
+    text-align: left;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 28px;
+    color: #FFFFFF;
+    width: 867px;
+}
+
+.map{
+    width: 100%;
+    height: 600px;
+}
+
+.feedback{
+    margin-top: 150px;
+    height: 365px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.feedback > div > div > h4{
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.post_title{
+    font-size: 36px;
+    line-height: 46px;
+}
+
+.post_p{
+    font-family: "inter";
+    font-size: 22px;
+    line-height: 28px;
+    color: #ffffff50;
+    width: 384px;
+}
+
+.fbutton{
+    margin-top: 28px;
+    width: 160px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #217756;
+    border-radius: 12px;
+    font-family: "basisgrotesquepro";
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.telegram{
+    width: 387px;
+    height: 367px;
+    background: url(/images/tgpath.svg) center center no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.tglogo{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.tg_title{
+    font-family: "basisgrotesquepro";
+    font-weight: bold;
+    line-height: 31px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 32px;
+    margin-left: 15px;
+}
+
+.tg_img{
+    width: 26px;
+    height: 23px;
+    background: url(/images/tglogo.svg) center center no-repeat;
+    background-size: 100%;
+}
+
+.ilya,
+.fedor{
+    margin-top: 44px;
+}
+
+.iname,
+.fname{
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.mrrofl,
+.ruffidesign,
+.aerscs,
+.aersdsgn{
+    font-family: "inter";
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.latest{
+    margin-top: 110px;
+    margin-bottom: 110px;
+}
+
+.fspt_img{
+    display: inline-block;
+    width: 100px;
+    height: 65px;
+    background: url(/images/spt.svg) center top no-repeat;
+    background-size: 100% 100%;
+}
+
+.copyright{
+    font-size: 14px;
+    line-height: 21px;
+    color: #ffffff50;
+}

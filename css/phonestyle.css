@@ -1,0 +1,291 @@
+/*100×([px]÷[resolution])=[vw]*/
+
+@media screen and (max-width: 768px){
+
+    h1{
+        font-family: "basisgrotesquepro";
+        font-weight: bold;
+        font-size: 7.22vw;
+    }
+    
+    h2{
+        text-align: left;
+        font-family: "basisgrotesquepro";
+        font-weight: normal;
+        font-size: 7.22vw;
+        line-height: 46px;
+    }
+    
+    h3{
+        font-family: "inter";
+        font-weight: normal;
+        font-size: 4.44px;
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        width: 89%;
+    }
+
+    .header{
+        margin-top: 18px;
+        justify-content: center;
+    }
+
+    .titlepage{
+        width: 100vw;
+        height: 164.17vw;
+        margin-top: 4.16vw;
+        flex-direction: column;
+        justify-content: space-between;
+        background: url(/images/titlepathmob.svg) center top no-repeat;
+        background-size: 100% 100%;
+    }
+    
+    .earth_img{
+        margin-left: -52.78vw;
+        width: 114.72vw;
+        height: 114.72vw;
+        transform: scaleX(-1); 
+    }   
+    
+    .maintext{
+        margin-bottom: 5.28vw;
+        margin-left: 11.11vw;
+    }
+    
+    .main_title{
+        line-height: 11.39vw;
+        font-weight: bold;
+        font-size: 8.89vw;
+    }
+    
+    .main_p{
+        font-weight: normal;
+        font-size: 4.17vw;
+        line-height: 5vw;
+        color: #fff;
+        width: 60vw;
+        min-width: 60vw;
+    }
+    
+    .button{
+        position: absolute;
+        margin-top: -60vw;
+        margin-left: 62vw;
+        width: 14.72vw;
+        height: 14.72vw;
+        background: url(/images/buttonmob.svg) center center no-repeat;
+        background-size: 100% 100%;
+        max-width: 14.72vw;
+        max-height: 14.7vh;
+
+    }
+    
+    .btn{
+        width: 14.72vw;
+        height: 14.72vw;
+        padding-bottom: 12px;
+        display: flex;
+        border: none;
+    }
+    
+    .watchtext,
+    .arrowdn{
+        display: none;
+    }
+
+    .recyclinglevels{
+        height: 150.46vw;
+        background: url(/images/recyclebgmob.svg) center center no-repeat;
+        background-size: 100% 100%;
+        margin-top: 30.74vw;
+    }
+    
+    .levels_title{
+        margin-left: -10vw;
+        margin-top: -10.19vw;
+    }
+    
+    .levelsof{
+        align-items: center;
+        margin-top: 1.94vw;
+    }
+    
+    .levelsof > div{
+        padding: 6.11vw;
+        height: 28.06vw;
+        width: 89.44vw;
+    }
+    
+    .levelsof > div > div > p{
+        font-size: 3.05vw;
+        line-height: 3.61vw;
+    }
+    
+    .levelsof > div > div > h3{
+        font-size: 4.44vw;
+    }
+    
+    .utiltext,
+    .sorttext,
+    .recyclablestext{
+        margin-left: 4.16vw;
+    }
+        
+    .removaltext,
+    .fabrictext{
+        margin-right: 4.16vw;
+    }
+    
+    .util_p,
+    .removal_p,
+    .sort_p,
+    .fabric_p,
+    .recyclables_p{
+        width: 45.85vw;
+    }
+        
+    .trash_img{
+        width: 9.72vw;
+        height: 14.16vw;
+    }
+
+    .truck_img{
+        width: 13.88vw;
+        height: 14.16vw;
+    }
+
+    .sort_img{
+        width: 13.88vw;
+        height: 14.16vw;
+    }
+
+    .fabric_img{
+        width: 13.88vw;
+        height: 14.16vw;
+    }
+
+    .recyclables_img{
+        width: 8.33vw;
+        height: 16.11vw;
+    }
+
+    .greenpeace{
+        margin-top: 14.72vw;
+        height: 169.17vw;
+    }
+
+    .greenpeace_bg{
+        height: 49.16vw;
+        width: 88.88vw;
+        background: url(/images/easierpathmob.svg) center top no-repeat;
+        background-size: 100% 100%;
+        padding: 0px;
+    }
+
+    .greenpeacetext{
+        padding: 5.55vw;
+    }
+
+
+    .greenpeace_title{
+        font-weight: normal;
+        font-size: 6.11vw;
+        line-height: 7.77vw;
+    }
+    
+    .greenpeace_p{
+        font-size: 4.17vw;
+        line-height: 5vw;
+        color: #ffffff50;
+        width: 68.88vw;
+    }
+    
+    .map{
+        width: 88.88vw;
+        height: 88.88vw;
+    }
+
+    .feedback{
+        margin-top: 0;
+        height: 148.61vw;
+        flex-direction: column;
+        
+    }
+
+    .post_title{
+        font-size: 7.22vw;
+        line-height: 9.44vw;
+    }
+    
+    .post_p{
+        font-size: 4.17vw;
+        line-height: 5.28vw;
+        width: 68.61vw;
+    }
+    
+    .fbutton{
+        margin-top: 5vw;
+        width: 34.17vw;
+        height: 10.83vw;
+        font-size: 5.56vw;
+    }
+    
+    .telegram{
+        width: 89.16vw;
+        height: 86.38vw;
+        background: url(/images/tgpathmob.svg) center center no-repeat;
+        background-size: 100% 100%;
+        padding: 11.11vw;
+    }
+    
+    .tg_title{
+        line-height: 8.89vw;
+        font-size: 7.22vw;
+        margin-left: 3.61vw;
+    }
+    
+    .tg_img{
+        width: 6.67vw;
+        height: 6.11vw;
+    }
+    
+    .ilya,
+    .fedor{
+        margin-top: 8.33vw;
+    }
+    
+    .iname,
+    .fname{
+        font-size: 6.11vw;
+        line-height: 7.5vw;
+    }
+    
+    .mrrofl,
+    .ruffidesign,
+    .aerscs,
+    .aersdsgn{
+        font-size: 5.55vw;
+        line-height: 6.66vw;
+    }
+
+    .latest{
+        margin-top: 10.27vw;
+        margin-bottom: 10.27vw;
+    }
+    
+    .fspt_img{
+        width: 22vw;
+        height: 14.33vw;
+    }
+
+    .copyright{
+        font-size: 3.05vw;
+        line-height: 3.61vw;
+    }
+}
