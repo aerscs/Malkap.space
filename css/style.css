@@ -114,7 +114,7 @@ p{
 .spt_img{
     width: 129px;
     height: 72px;
-    background: url(/images/spt.svg) center top no-repeat;
+    background: url(../images/spt.svg) center top no-repeat;
     background-size: 100% 100%; 
 }
 
@@ -127,7 +127,7 @@ p{
 .earth_img{
     width: 539px;
     height: 539px;
-    background: url(/images/earth.webp) center top no-repeat;
+    background: url(../images/earth.webp) center top no-repeat;
     background-size: 100%;
 }   
 
@@ -173,13 +173,13 @@ p{
 .arrowdn{
     width: 22px;
     height: 29px;
-    background: url(/images/arrow.svg) center top no-repeat;
+    background: url(../images/arrow.svg) center top no-repeat;
     background-size: 100% 100%; 
 }
 
 .recyclinglevels{
     height: 858px;
-    background: url(/images/recyclebg.svg) center center no-repeat;
+    background: url(../images/recyclebg.svg) center center no-repeat;
     background-size: 100% 100%;
     display: flex;
     justify-content: center;
@@ -250,35 +250,35 @@ p{
 }
 
 .trash_img{
-    background: url(/images/trash.svg) center center no-repeat;
+    background: url(../images/trash.svg) center center no-repeat;
     background-size: 100%;
     width: 54px;
     height: 78px;
 }
 
 .truck_img{
-    background: url(/images/truck.svg) center center no-repeat;
+    background: url(../images/truck.svg) center center no-repeat;
     background-size: 100%;
     width: 76px;
     height: 78px;
 }
 
 .sort_img{
-    background: url(/images/sort.svg) center center no-repeat;
+    background: url(../images/sort.svg) center center no-repeat;
     background-size: 100%;
     width: 75px;
     height: 78px;
 }
 
 .fabric_img{
-    background: url(/images/fabric.svg) center center no-repeat;
+    background: url(../images/fabric.svg) center center no-repeat;
     background-size: 100%;
     width: 78px;
     height: 78px;
 }
 
 .recyclables_img{
-    background: url(/images/recyclables.svg) center center no-repeat;
+    background: url(../images/recyclables.svg) center center no-repeat;
     background-size: 100%;
     width: 39px;
     height: 78px;
@@ -302,7 +302,7 @@ p{
     margin-top: 21px;
     height: 199px;
     width: 100%;
-    background: url(/images/easierpath.svg) center top no-repeat;
+    background: url(../images/easierpath.svg) center top no-repeat;
     background-size: 100%;
     padding: 30px;
 }
@@ -368,7 +368,7 @@ p{
 .telegram{
     width: 387px;
     height: 367px;
-    background: url(/images/tgpath.svg) center center no-repeat;
+    background: url(../images/tgpath.svg) center center no-repeat;
     background-size: 100%;
     display: flex;
     flex-direction: column;
@@ -395,7 +395,7 @@ p{
 .tg_img{
     width: 26px;
     height: 23px;
-    background: url(/images/tglogo.svg) center center no-repeat;
+    background: url(../images/tglogo.svg) center center no-repeat;
     background-size: 100%;
 }
 
@@ -431,7 +431,7 @@ p{
     display: inline-block;
     width: 100px;
     height: 65px;
-    background: url(/images/spt.svg) center top no-repeat;
+    background: url(../images/spt.svg) center top no-repeat;
     background-size: 100% 100%;
 }
 

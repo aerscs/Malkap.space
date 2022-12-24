@@ -42,7 +42,7 @@
         margin-top: 4.16vw;
         flex-direction: column;
         justify-content: space-between;
-        background: url(/images/titlepathmob.svg) center top no-repeat;
+        background: url(../images/titlepathmob.svg) center top no-repeat;
         background-size: 100% 100%;
     }
     
@@ -79,7 +79,7 @@
         margin-left: 62vw;
         width: 14.72vw;
         height: 14.72vw;
-        background: url(/images/buttonmob.svg) center center no-repeat;
+        background: url(../images/buttonmob.svg) center center no-repeat;
         background-size: 100% 100%;
         max-width: 14.72vw;
         max-height: 14.7vh;
@@ -101,7 +101,7 @@
 
     .recyclinglevels{
         height: 150.46vw;
-        background: url(/images/recyclebgmob.svg) center center no-repeat;
+        background: url(../images/recyclebgmob.svg) center center no-repeat;
         background-size: 100% 100%;
         margin-top: 30.74vw;
     }
@@ -183,7 +183,7 @@
     .greenpeace_bg{
         height: 49.16vw;
         width: 88.88vw;
-        background: url(/images/easierpathmob.svg) center top no-repeat;
+        background: url(../images/easierpathmob.svg) center top no-repeat;
         background-size: 100% 100%;
         padding: 0px;
     }
@@ -239,7 +239,7 @@
     .telegram{
         width: 89.16vw;
         height: 86.38vw;
-        background: url(/images/tgpathmob.svg) center center no-repeat;
+        background: url(../images/tgpathmob.svg) center center no-repeat;
         background-size: 100% 100%;
         padding: 11.11vw;
     }

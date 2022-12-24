@@ -65,7 +65,7 @@ h4{
 .arrowdn{
     width: 14px;
     height: 19px;
-    background: url(/images/arrow.svg) center top no-repeat;
+    background: url(../images/arrow.svg) center top no-repeat;
     background-size: 100% 
 }
 
@@ -172,7 +172,7 @@ h4{
 .telegram{
     width: 316px;
     height: 349px;
-    background: url(/images/tgpathtablet.svg) center center no-repeat;
+    background: url(../images/tgpathtablet.svg) center center no-repeat;
     background-size: 100%;
     padding: 44px;
 }
